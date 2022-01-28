@@ -37,11 +37,11 @@ menu {
 }
 
 .menu a {
-  background: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
   color: #000000;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .conteudo {
@@ -79,9 +79,10 @@ menu {
 }
 
 .subtitulo {
-  font-size: 64px;
+  font-size: 60px;
   text-transform: uppercase;
-  color: #d8d6d6;
+  line-height: 1.3;
+  color: #c4c4c4;
   text-align: right;
   padding: 40px;
   align-self: center;
@@ -104,5 +105,14 @@ menu {
 }
 
 .rodape {
-  background: #ffffff;
+  background: #444444;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.rodape p {
+  font-size: 16px;
 }
